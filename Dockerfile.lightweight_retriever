@@ -1,0 +1,34 @@
+FROM python:3.11-slim
+
+# Install system dependencies
+RUN apt-get update -y && apt-get install -y --no-install-recommends \
+    wget \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create user
+RUN useradd -m -s /bin/bash user && \
+    mkdir -p /home/user && \
+    chown -R user /home/user
+
+# Set working directory
+WORKDIR /home/user
+
+# Copy requirements
+COPY requirements.lightweight_retriever.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir --upgrade pip setuptools && \
+    pip install --no-cache-dir -r requirements.lightweight_retriever.txt
+
+# Copy the lightweight retriever script
+COPY lightweight_retriever.py .
+
+# Switch to user
+USER user
+
+# Expose port
+EXPOSE 8001
+
+# Run the retriever
+CMD ["python", "lightweight_retriever.py"]

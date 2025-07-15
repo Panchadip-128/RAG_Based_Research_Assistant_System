@@ -1,0 +1,5 @@
+Hostname: DESKTOP-PK65H3U
+Date: Tue Jul 15 16:04:19 IST 2025
+User: panchadip128
+Working Directory: /mnt/d/ai-agents
+Docker Version: Docker version 28.2.2, build e6534b4

@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+
+RUN pip install sentence-transformers fastapi uvicorn redis numpy
+
+COPY simple_retriever.py /app/simple_retriever.py
+
+WORKDIR /app
+
+EXPOSE 7000
+
+CMD ["python", "simple_retriever.py"]

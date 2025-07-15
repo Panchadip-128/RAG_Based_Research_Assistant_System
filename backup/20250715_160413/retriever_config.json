@@ -1,0 +1,233 @@
+[
+    {
+        "Id": "16f15273d6ee81a6d49c7a50d83780d765809eb03112a2fca767011a7f44b793",
+        "Created": "2025-07-15T07:41:42.937293653Z",
+        "Path": "python",
+        "Args": [
+            "retriever_redis.py"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 8987,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-07-15T07:41:43.159040443Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:d5b312a37364deb9c812c858c587a0965bebc00db325bff98bed280c9673a47d",
+        "ResolvConfPath": "/var/lib/docker/containers/16f15273d6ee81a6d49c7a50d83780d765809eb03112a2fca767011a7f44b793/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/16f15273d6ee81a6d49c7a50d83780d765809eb03112a2fca767011a7f44b793/hostname",
+        "HostsPath": "/var/lib/docker/containers/16f15273d6ee81a6d49c7a50d83780d765809eb03112a2fca767011a7f44b793/hosts",
+        "LogPath": "/var/lib/docker/containers/16f15273d6ee81a6d49c7a50d83780d765809eb03112a2fca767011a7f44b793/16f15273d6ee81a6d49c7a50d83780d765809eb03112a2fca767011a7f44b793-json.log",
+        "Name": "/retriever-redis-server",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "ai-agents-network",
+            "PortBindings": {
+                "7000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "5007"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                22,
+                101
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "16f15273d6ee81a6d49c7a50d83780d765809eb03112a2fca767011a7f44b793",
+                "LowerDir": "/var/lib/docker/overlay2/76c99a16dba045dc3d03887a35639629aa01817cb19da8e59370d6b032e81fd8-init/diff:/var/lib/docker/overlay2/cb6mre9y1z9yuc7npva934r52/diff:/var/lib/docker/overlay2/q9i48tnnx3lvj3lwgak20sgsy/diff:/var/lib/docker/overlay2/ywz3s6jc8g892umglyir0aku6/diff:/var/lib/docker/overlay2/mcwedvq9hg9m80fczdkxcla34/diff:/var/lib/docker/overlay2/i1b9q1dphpn0xh6oqcr5cwiyq/diff:/var/lib/docker/overlay2/950c7846d0c2f2e4d9f2a337231e7dd11ecafb8595fd388780c2a5830c0d83f1/diff:/var/lib/docker/overlay2/c081afc704649271ced0c2196e2bc3ca0b644d50353e46c916cfd8a44c9012fe/diff:/var/lib/docker/overlay2/1e42dd3ba7f832c1a6cf242ab5b88bf59e3b83d10b55b45229be46efd916033c/diff:/var/lib/docker/overlay2/ce2732e16222eb5c6faf98343e082417bb913aba5e9d415831804b1d88169636/diff",
+                "MergedDir": "/var/lib/docker/overlay2/76c99a16dba045dc3d03887a35639629aa01817cb19da8e59370d6b032e81fd8/merged",
+                "UpperDir": "/var/lib/docker/overlay2/76c99a16dba045dc3d03887a35639629aa01817cb19da8e59370d6b032e81fd8/diff",
+                "WorkDir": "/var/lib/docker/overlay2/76c99a16dba045dc3d03887a35639629aa01817cb19da8e59370d6b032e81fd8/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "16f15273d6ee",
+            "Domainname": "",
+            "User": "user",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "7000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "REDIS_URL=redis://redis:6379",
+                "HUGGINGFACEHUB_API_TOKEN=YOUR_HUGGINGFACE_TOKEN",
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.13",
+                "PYTHON_SHA256=8fb5f9fbc7609fa822cb31549884575db7fd9657cbffb89510b5d7975963a83a",
+                "PYTHONPATH=/home/user"
+            ],
+            "Cmd": null,
+            "Image": "ai-agents/retriever:latest",
+            "Volumes": null,
+            "WorkingDir": "/home/user/comps/retriever",
+            "Entrypoint": [
+                "python",
+                "retriever_redis.py"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "4c512d09cb505dc7818e51254a76b1d0e82360d151562c27e9a546acdc8a07f0",
+            "SandboxKey": "/var/run/docker/netns/4c512d09cb50",
+            "Ports": {
+                "7000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "5007"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "5007"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "ai-agents-network": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "66:de:53:b0:ae:20",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "15771e75d7ef98a2c1fcf53d0f9209132dbee8d67a6feeed1fa5e2fed7ac0085",
+                    "EndpointID": "4da5df0cdd70d523e27988ced0bc22fcd0f02c80e023357de58ee1f74c0219ec",
+                    "Gateway": "172.19.0.1",
+                    "IPAddress": "172.19.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "retriever-redis-server",
+                        "16f15273d6ee"
+                    ]
+                }
+            }
+        }
+    }
+]

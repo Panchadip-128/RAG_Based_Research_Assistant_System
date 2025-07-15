@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+
+RUN pip install sentence-transformers flask numpy
+
+COPY embedding_server.py /app/embedding_server.py
+
+WORKDIR /app
+
+EXPOSE 8080
+
+CMD ["python", "embedding_server.py"]

@@ -1,0 +1,246 @@
+[
+    {
+        "Id": "11b615616e40a0bfe9340705ae34dd896ae51fda236ef02866ca46ed236970f1",
+        "Created": "2025-07-15T10:27:22.221764705Z",
+        "Path": "python",
+        "Args": [
+            "comps/main.py"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 15716,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-07-15T10:27:22.524319955Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:f222a1ae92ecc5d05450b3e4383bf814a203f98e3b88c621bc6b9d2ef353302a",
+        "ResolvConfPath": "/var/lib/docker/containers/11b615616e40a0bfe9340705ae34dd896ae51fda236ef02866ca46ed236970f1/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/11b615616e40a0bfe9340705ae34dd896ae51fda236ef02866ca46ed236970f1/hostname",
+        "HostsPath": "/var/lib/docker/containers/11b615616e40a0bfe9340705ae34dd896ae51fda236ef02866ca46ed236970f1/hosts",
+        "LogPath": "/var/lib/docker/containers/11b615616e40a0bfe9340705ae34dd896ae51fda236ef02866ca46ed236970f1/11b615616e40a0bfe9340705ae34dd896ae51fda236ef02866ca46ed236970f1-json.log",
+        "Name": "/backend-rag-full",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "ai-agents-network",
+            "PortBindings": {
+                "5008/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "5008"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                22,
+                101
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "11b615616e40a0bfe9340705ae34dd896ae51fda236ef02866ca46ed236970f1",
+                "LowerDir": "/var/lib/docker/overlay2/81b8a15a57243b0f84ae9ec9e8a4f40315d5e4003c6c1540f8f4f4e2d88052fe-init/diff:/var/lib/docker/overlay2/gkcjvjsfpi6knobau1btb517l/diff:/var/lib/docker/overlay2/r4814r4y8hqqblb4kowiqzj1z/diff:/var/lib/docker/overlay2/iqas4lqwugzo5m3jgf2bbh471/diff:/var/lib/docker/overlay2/ja6szpi6maaryn7cdwykklibl/diff:/var/lib/docker/overlay2/vjj2mqdaco3o2wg52kxlxt2dw/diff:/var/lib/docker/overlay2/rgt8omnoc4dqhz6tjkek420hn/diff:/var/lib/docker/overlay2/950c7846d0c2f2e4d9f2a337231e7dd11ecafb8595fd388780c2a5830c0d83f1/diff:/var/lib/docker/overlay2/c081afc704649271ced0c2196e2bc3ca0b644d50353e46c916cfd8a44c9012fe/diff:/var/lib/docker/overlay2/1e42dd3ba7f832c1a6cf242ab5b88bf59e3b83d10b55b45229be46efd916033c/diff:/var/lib/docker/overlay2/ce2732e16222eb5c6faf98343e082417bb913aba5e9d415831804b1d88169636/diff",
+                "MergedDir": "/var/lib/docker/overlay2/81b8a15a57243b0f84ae9ec9e8a4f40315d5e4003c6c1540f8f4f4e2d88052fe/merged",
+                "UpperDir": "/var/lib/docker/overlay2/81b8a15a57243b0f84ae9ec9e8a4f40315d5e4003c6c1540f8f4f4e2d88052fe/diff",
+                "WorkDir": "/var/lib/docker/overlay2/81b8a15a57243b0f84ae9ec9e8a4f40315d5e4003c6c1540f8f4f4e2d88052fe/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "11b615616e40",
+            "Domainname": "",
+            "User": "user",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5008/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "LLM_SERVER_HOST_IP=vllm-service",
+                "LLM_SERVER_PORT=9009",
+                "MONGO_HOST=mongodb",
+                "MONGO_PORT=27017",
+                "no_proxy=",
+                "http_proxy=",
+                "MEGA_SERVICE_PORT=5008",
+                "RETRIEVER_SERVICE_HOST_IP=retriever-redis-server",
+                "RERANK_SERVER_HOST_IP=tei-reranking-service",
+                "RERANK_SERVER_PORT=8808",
+                "https_proxy=",
+                "EMBEDDING_SERVER_HOST_IP=tei-embedding-service",
+                "EMBEDDING_SERVER_PORT=6006",
+                "RETRIEVER_SERVICE_PORT=7000",
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.13",
+                "PYTHON_SHA256=8fb5f9fbc7609fa822cb31549884575db7fd9657cbffb89510b5d7975963a83a",
+                "HOME=/home/user",
+                "PYTHONPATH=:/home/user/user/comps"
+            ],
+            "Cmd": null,
+            "Image": "ai-agents/rag/backend:latest",
+            "Volumes": null,
+            "WorkingDir": "/home/user",
+            "Entrypoint": [
+                "python",
+                "comps/main.py"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "f7826bb35677c85bd776833a08c87b69d68850cf7f2d7e07e37228130a752e12",
+            "SandboxKey": "/var/run/docker/netns/f7826bb35677",
+            "Ports": {
+                "5008/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "5008"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "5008"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "ai-agents-network": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "aa:96:28:bd:4b:a1",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "15771e75d7ef98a2c1fcf53d0f9209132dbee8d67a6feeed1fa5e2fed7ac0085",
+                    "EndpointID": "bbba7abc6d484bd8a4eb2556b9997c58638249adfcec1b0fcbe8408ceb5e380e",
+                    "Gateway": "172.19.0.1",
+                    "IPAddress": "172.19.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "backend-rag-full",
+                        "11b615616e40"
+                    ]
+                }
+            }
+        }
+    }
+]

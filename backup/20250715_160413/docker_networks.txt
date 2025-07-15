@@ -1,0 +1,6 @@
+NETWORK ID     NAME                DRIVER    SCOPE
+15771e75d7ef   ai-agents-network   bridge    local
+8b22cbb6de7f   bridge              bridge    local
+c9f66d38db26   host                host      local
+1d4b7976fa9b   none                null      local
+796b34d03aee   retriever_default   bridge    local

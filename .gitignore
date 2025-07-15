@@ -1,0 +1,32 @@
+# Ignore sensitive files
+**/*token*
+**/*secret*
+**/*key*
+**/*password*
+
+# Ignore system files
+**/$RECYCLE.BIN/
+**/System Volume Information/
+**/WindowsApps/
+**/*.tmp
+**/__pycache__/
+**/.vscode/
+**/node_modules/
+
+# Ignore parent directory files
+../
+
+# Keep only project files
+!*.py
+!*.md
+!*.txt
+!*.yaml
+!*.yml
+!*.json
+!*.sh
+!*.bat
+!assets/
+!comps/
+!design-patterns/
+!install/
+!backup/

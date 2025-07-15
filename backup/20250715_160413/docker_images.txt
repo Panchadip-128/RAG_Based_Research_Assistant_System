@@ -1,0 +1,23 @@
+REPOSITORY                                      TAG           SIZE      CREATED AT
+ai-agents/dataprep                              light         4.67GB    2025-07-15 15:57:24 +0530 IST
+ai-agents/rag/backend                           latest        5.99GB    2025-07-15 14:52:41 +0530 IST
+ai-agents/retriever                             light         161MB     2025-07-15 03:33:23 +0530 IST
+<none>                                          <none>        4.67GB    2025-07-15 02:10:04 +0530 IST
+ai-agents/retriever                             lightweight   6.29GB    2025-07-15 00:24:42 +0530 IST
+<none>                                          <none>        6.29GB    2025-07-15 00:24:42 +0530 IST
+<none>                                          <none>        5.36GB    2025-07-14 23:42:52 +0530 IST
+<none>                                          <none>        4.67GB    2025-07-14 23:16:55 +0530 IST
+<none>                                          <none>        540MB     2025-07-14 22:52:02 +0530 IST
+<none>                                          <none>        4.67GB    2025-07-14 21:26:17 +0530 IST
+ai-agents/retriever                             latest        2.71GB    2025-07-14 19:57:53 +0530 IST
+<none>                                          <none>        4.67GB    2025-07-14 12:54:50 +0530 IST
+opea/dataprep-redis                             latest        4.67GB    2025-07-13 22:21:30 +0530 IST
+redis/redis-stack                               latest        891MB     2025-07-07 17:22:38 +0530 IST
+ai-agents/dataprep                              latest        4.65GB    2025-07-05 11:10:57 +0530 IST
+sentiment-analysis-simple                       latest        6.99GB    2025-06-30 16:24:35 +0530 IST
+sentiment-analysis-app                          latest        17.3GB    2025-06-30 14:50:33 +0530 IST
+mongo                                           latest        901MB     2025-06-28 03:31:28 +0530 IST
+ghcr.io/huggingface/text-generation-inference   latest        16.9GB    2025-06-03 17:21:53 +0530 IST
+db-db                                           latest        772MB     2025-04-15 03:45:13 +0530 IST
+hello-world                                     latest        10.1kB    2025-01-22 05:02:32 +0530 IST
+redis/redis-stack                               7.2.0-v9      791MB     2024-03-04 16:39:17 +0530 IST
